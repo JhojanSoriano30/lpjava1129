@@ -510,7 +510,7 @@ ByteArrayOutputStream qr = QRCode.from(valor).to(ImageType.PNG).stream();
 
 ImageIcon icono = new ImageIcon(qr.toByteArray());
 lblQR.setIcon(icono);
-
+//comenzamoss
     }//GEN-LAST:event_btnnQRActionPerformed
 
 
